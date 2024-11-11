@@ -55,15 +55,16 @@ h3 {
   background-position: center;
   background-attachment: fixed;
   width: 100%;
-  display: flex; /* Add this line */
-  flex-direction: column; /* Add this line */
-  justify-content: center; /* Add this line */
-  align-items: center; /* Add this line */
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
   margin-bottom: 2rem;
 }
 
-.hero-section, h1, p {
-    background-color: rgba(175, 215, 70, 0.5);
+.hero-section h1,
+.hero-section p {
+  background-color: rgba(175, 215, 70, 0.5); /* Apply background color to h1 and p */
 }
 
 .hero-section h1,
