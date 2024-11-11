@@ -62,7 +62,7 @@ h3 {
   background-position: center;
   background-attachment: relative;
   width: 100%;
-  max-width: 1792px;
+  /* max-width: 1792px; */
   height: auto;
   display: flex;
   flex-direction: column;
@@ -75,7 +75,7 @@ h3 {
 }
 
 .hero-container {
-  max-width: 1792px;
+  padding-bottom: 10rem;
 }
 
 .hero-section h1,
@@ -87,6 +87,8 @@ h3 {
     0.9
   ); /* Apply background color to h1 and p */
   border-radius: 10px; /* Add border radius */
+  padding-left: 2rem; /* Add padding to the left */
+  padding-right: 2rem; /* Add padding to the right */
 }
 
 /*card section*/
