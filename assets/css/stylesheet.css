@@ -55,9 +55,12 @@ h3 {
 /*HERO SECTION*/
 .hero-section {
   background-image: url(../images/Hero_frog.jpeg);
+  /* background-color: rgba(32, 183, 252, 1); */
+
+  background-repeat: no-repeat;
   min-height: 65vh;
   background-size: cover;
-  background-position: top;
+  background-position: center;
   background-attachment: relative;
   width: 100%;
   display: flex;
