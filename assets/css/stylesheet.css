@@ -32,10 +32,13 @@ h3 {
 .navbar-nav .nav-link {
   color: #c8e292;
   font-family: var(--primary-font);
+  font-size: larger;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #afd746;
+  color: white;
+  background-color: rgba(175, 215, 70, 0.5); 
+
 }
 
 .navbar-nav {
@@ -44,7 +47,7 @@ h3 {
 }
 
 .navbar {
-  background-color: rgba(32, 183, 252, 1);
+  background-color: rgba(32, 183, 252, 0.5);
 }
 
 /*HERO SECTION*/
@@ -53,7 +56,7 @@ h3 {
   min-height: 25rem;
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: dynamic;
   width: 100%;
   display: flex; 
   flex-direction: column; 
@@ -86,7 +89,8 @@ h3 {
   font-family: var(--primary-font);
 }
 
-.card img {
-  height: 200px;
-  object-fit: cover;
+.card-img-top {
+
+  object-fit: cover; /* Ensure the image covers the entire card */
 }
+
