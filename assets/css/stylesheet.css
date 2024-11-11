@@ -57,11 +57,13 @@ h3 {
   /* background-color: rgba(32, 183, 252, 1); */
 
   background-repeat: no-repeat;
-  min-height: 65vh;
-  background-size: contain;
+  min-height: 50vw;
+  background-size: cover;
   background-position: center;
   background-attachment: relative;
-  max-width: 100%;
+  width: 100%;
+  max-width: 1792px;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
