@@ -55,11 +55,11 @@ h3 {
   background-position: center;
   background-attachment: fixed;
   width: 100%;
-  display: flex; 
-  flex-direction: column; 
-  justify-content: center; 
-  align-items: center; 
-  margin-bottom: 3rem;
+  display: flex; /* Add this line */
+  flex-direction: column; /* Add this line */
+  justify-content: center; /* Add this line */
+  align-items: center; /* Add this line */
+  margin-bottom: 2rem;
 }
 
 .hero-section, h1, p {
@@ -69,5 +69,16 @@ h3 {
 .hero-section h1,
 .hero-section p,
 .hero-section a {
-  text-align: center; /* Add this line */
+  text-align: center; 
+}
+
+/*card section*/
+
+.card-body .card-title, h5 {
+  font-family: var(--secondary-font);
+  color: #afd746;
+}
+
+.card-text {
+  font-family: var(--primary-font);
 }
