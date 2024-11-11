@@ -1,0 +1,33 @@
+
+/*GLOBAL STYLES*/
+
+body {
+    
+}
+
+h1 {
+    color: #afd746 !important;
+}
+
+p {
+    color: #c8e292;
+}
+
+#navbar {
+    background-color: rgba(200, 226, 146, 0.2)
+    
+}
+
+.nav-link {
+    color: #c8e292;
+
+}
+.nav-item:hover {
+    background-color: rgba(200, 226, 146, 0.5);
+}
+
+.hero-container img {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
