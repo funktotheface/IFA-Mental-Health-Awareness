@@ -26,7 +26,7 @@ h3 {
 }
 
 .navbar-brand {
-  padding-left: 100px; /* Add padding to the logo */
+  padding-left: 2rem; /* Add padding to the logo */
 }
 
 .navbar-nav .nav-link {
