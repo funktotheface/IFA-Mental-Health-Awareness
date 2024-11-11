@@ -64,7 +64,9 @@ h3 {
 
 .hero-section h1,
 .hero-section p {
+  
   background-color: rgba(175, 215, 70, 0.5); /* Apply background color to h1 and p */
+  border-radius: 10px; /* Add border radius */
 }
 
 .hero-section h1,
