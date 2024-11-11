@@ -37,8 +37,7 @@ h3 {
 
 .navbar-nav .nav-link:hover {
   color: white;
-  background-color: rgba(175, 215, 70, 0.5); 
-
+  background-color: rgba(175, 215, 70, 0.5);
 }
 
 .navbar-nav {
@@ -56,15 +55,16 @@ h3 {
 /*HERO SECTION*/
 .hero-section {
   background-image: url(../images/Hero_frog.jpeg);
-  min-height: 25rem;
+  min-height: 65vh;
   background-size: cover;
   background-position: top;
   background-attachment: relative;
   width: 100%;
-  display: flex; 
-  flex-direction: column; 
-  justify-content: center; 
-  align-items: center; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
   margin-bottom: 2rem;
   margin-top: -100px; /* Move the hero section up to reach the top of the screen */
   /* padding-top: 50px; Add padding to the top to account for the navbar height */
@@ -72,20 +72,19 @@ h3 {
 
 .hero-section h1,
 .hero-section p {
-  
-  background-color: rgba(175, 215, 70, 0.5); /* Apply background color to h1 and p */
+  background-color: rgba(
+    32,
+    183,
+    252,
+    0.9
+  ); /* Apply background color to h1 and p */
   border-radius: 10px; /* Add border radius */
-}
-
-.hero-section h1,
-.hero-section p,
-.hero-section a {
-  text-align: center; 
 }
 
 /*card section*/
 
-.card-body .card-title, h5 {
+.card-body .card-title,
+h5 {
   font-family: var(--secondary-font);
   color: #afd746;
 }
@@ -95,7 +94,5 @@ h3 {
 }
 
 .card-img-top {
-
   object-fit: cover; /* Ensure the image covers the entire card */
 }
-
