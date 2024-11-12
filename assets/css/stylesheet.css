@@ -26,7 +26,7 @@ h3 {
 }
 
 .navbar-brand {
-  /* padding-left: 2rem; */
+  padding-left: 2rem;
   
 }
 
@@ -96,10 +96,17 @@ h3 {
 #card-heading {
   background-color: rgba(32, 183, 252, 1);
   color: white;
+  padding-top: 100px;
 
 }
 
+#card-heading h1 {
+  padding-bottom: 75px;
+}
+
+
 #card-paragraph {
+ padding-top: 30px;
  font-size: 1.5rem;
 }
 
@@ -122,7 +129,7 @@ h5 {
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+@media (max-width: 768px) {
   .hero-section {
     justify-content: center;
   }
@@ -138,6 +145,10 @@ h5 {
     margin-bottom: 1rem;
   }
 
+  #card-paragraph {
+    font-size: 1rem;
+  }
+
 
 }
 
@@ -150,6 +161,11 @@ h5 {
   .card {
     margin-bottom: 1rem;
   }
+
+  #card-paragraph {
+    font-size: 1rem;
+  }
+  
 }
 
 /* Large devices (desktops, 992px and up) */

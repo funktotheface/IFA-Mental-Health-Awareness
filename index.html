@@ -31,7 +31,7 @@
             <a class="nav-link" href="resources.html">Resources</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact-us">Contact</a>
           </li>
         </ul>
       </div>
@@ -49,8 +49,8 @@
 
   <!--CARD CAROUSEL-->
   <div class="row">
-    <div class="col-12 text-center">
-      <h1 id="card-heading">What can we lean about Mental Health?</h1>
+    <div class="col-12 text-center" id="card-heading">
+      <h1>What can we learn about Mental Health?</h1>
     </div>
     <div class="row text-center">
       <p class="col-8 mx-auto" id="card-paragraph">
@@ -180,7 +180,27 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Contact Form -->
+<div id="contact-us" class="container mt-5">
+  <h2>Contact Us</h2>
+  <form>
+    <div class="mb-3">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" class="form-control" id="name" placeholder="Your Name">
+    </div>
+    <div class="mb-3">
+      <label for="email" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="email" placeholder="name@example.com">
+    </div>
+    <div class="mb-3">
+      <label for="message" class="form-label">Message</label>
+      <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
 </body>
-</body>
+
 
 </html>
