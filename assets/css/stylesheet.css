@@ -158,6 +158,26 @@ h5 {
   background-color: #afd746;
 }
 
+#contact-us
+.btn {
+  background-color: rgba(32, 183, 252, 1);
+}
+
+#contact-us
+.btn:hover {
+  background-color: #afd746;
+}
+
+.hero-container
+.btn {
+  background-color: rgba(32, 183, 252, 1);
+  color: white;
+}
+
+.hero-container
+.btn:hover {
+  background-color: #afd746;
+
 
 
 
