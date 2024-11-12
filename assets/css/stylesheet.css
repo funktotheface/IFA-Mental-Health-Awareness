@@ -154,15 +154,21 @@ h5 {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .hero-section {
-    justify-content: flex-end;
+    justify-content: center;
   }
+
+  .hero-section h1 {
+    font-size: 4rem;
+  }
+
+  .hero-container {
+    padding-top: 20rem;
+  }
+
   .card-body {
     min-height: 275px;
   }
+
   
   } 
 
-  .hero-container {
-    padding-bottom: 10rem;
-  }
-  }
