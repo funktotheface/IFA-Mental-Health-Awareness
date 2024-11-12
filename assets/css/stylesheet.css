@@ -91,6 +91,11 @@ h3 {
   padding-right: 2rem; /* Add padding to the right */
 }
 
+#card-heading {
+  background-color: rgba(32, 183, 252, 1);
+  color: white;
+
+}
 
 .card-body .card-title,
 h5 {
