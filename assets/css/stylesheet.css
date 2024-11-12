@@ -37,7 +37,7 @@ h3 {
 
 
 .navbar-nav .nav-link {
-  color: #c8e292;
+  color: white;
   font-family: var(--primary-font);
   font-size: larger;
 }
@@ -45,6 +45,7 @@ h3 {
 .navbar-nav .nav-link:hover {
   color: white;
   background-color: rgba(175, 215, 70, 0.5);
+  border-radius: 10px;
 }
 
 .navbar-nav {
