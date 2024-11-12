@@ -110,3 +110,7 @@ h5 {
 .card-img-top {
   object-fit: cover; /* Ensure the image covers the entire card */
 }
+
+.card-body {
+  min-height: 250px;
+}
