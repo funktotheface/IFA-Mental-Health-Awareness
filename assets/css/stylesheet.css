@@ -158,6 +158,14 @@ h5 {
   background-color: #afd746;
 }
 
+#resources-text
+p {
+  font-family: var(--secondary-font);
+  font-size: 2rem;
+  margin-top: 2rem;
+  color: #afd746;
+}
+
 #contact-us
 .btn {
   background-color: rgba(32, 183, 252, 1);
