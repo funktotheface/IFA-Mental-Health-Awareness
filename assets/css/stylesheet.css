@@ -121,6 +121,12 @@ h5 {
     padding-right: 2rem; /* Add padding to the right */
   }
 
+
+  .card {
+    margin-bottom: 1rem;
+  }
+
+
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -128,12 +134,20 @@ h5 {
   .hero-section {
     justify-content: flex-end;
   }
+
+  .card {
+    margin-bottom: 1rem;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .hero-section {
     justify-content: flex-end;
+  }
+
+  .card {
+    margin-bottom: 1rem;
   }
 }
 
