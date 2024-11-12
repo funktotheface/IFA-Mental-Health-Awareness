@@ -108,3 +108,47 @@ h5 {
 .card-body {
   min-height: 200px;
 }
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .hero-section {
+    justify-content: center;
+  }
+  .hero-container h1 {
+    background-color: rgba(32, 183, 252, 0.5); /* Apply background color to h1 and p */
+    border-radius: 10px; /* Add border radius */
+    padding-left: 2rem; /* Add padding to the left */
+    padding-right: 2rem; /* Add padding to the right */
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .hero-section {
+    justify-content: flex-end;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .hero-section {
+    justify-content: flex-end;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .hero-section {
+    justify-content: flex-end;
+  }
+  .card-body {
+    min-height: 275px;
+  }
+  
+  } 
+
+  .hero-container {
+    padding-bottom: 10rem;
+  }
+  }
