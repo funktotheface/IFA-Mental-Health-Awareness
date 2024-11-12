@@ -74,18 +74,12 @@ h3 {
   /* padding-top: 50px; Add padding to the top to account for the navbar height */
 }
 
-.hero-container {
+/* .hero-container {
   /* padding-bottom: 10rem; */
-}
 
-.hero-section h1,
-.hero-section p {
-  background-color: rgba(
-    32,
-    183,
-    252,
-    0.9
-  ); /* Apply background color to h1 and p */
+
+.hero-container h1 {
+  background-color: rgba(32, 183, 252, 1); /* Apply background color to h1 and p */
   border-radius: 10px; /* Add border radius */
   padding-left: 2rem; /* Add padding to the left */
   padding-right: 2rem; /* Add padding to the right */
@@ -112,5 +106,5 @@ h5 {
 }
 
 .card-body {
-  min-height: 250px;
+  min-height: 200px;
 }
