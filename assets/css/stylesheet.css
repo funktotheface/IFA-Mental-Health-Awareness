@@ -26,9 +26,14 @@ h3 {
 }
 
 .navbar-brand {
-  padding-left: 2rem; /* Add padding to the logo */
+  /* padding-left: 2rem; */
+  
 }
 
+#logo {
+  color: white;
+  padding-top: 5px;
+}
 
 
 .navbar-nav .nav-link {
@@ -51,6 +56,7 @@ h3 {
   background-color: rgba(32, 183, 252, 1);
   position: fixed; /* Ensure navbar is fixed */
   width: 100%; /* Ensure it spans the full width */
+  max-height: auto;
 }
 
 /*HERO SECTION*/
@@ -91,6 +97,10 @@ h3 {
   background-color: rgba(32, 183, 252, 1);
   color: white;
 
+}
+
+#card-paragraph {
+ font-size: 1.5rem;
 }
 
 .card-body .card-title,
