@@ -177,6 +177,15 @@ h5 {
 .hero-container
 .btn:hover {
   background-color: #afd746;
+}
+
+#contact-us {
+  font-family: var(--primary-font);
+}
+
+#contact-us h2 {
+  color: #afd746; /* Replace with your desired color */
+}
 
 
 
@@ -249,7 +258,4 @@ h5 {
   .card-body {
     min-height: 275px;
   }
-
-  
-  } 
-
+}
